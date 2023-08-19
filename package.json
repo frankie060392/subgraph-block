@@ -1,10 +1,10 @@
 {
   "name": "block-subgraph",
   "scripts": {
-    "create": "graph create --node http://34.234.83.28:8020/ graphprotocol/u2uswap-block",
+    "create": "graph create --node http://54.255.232.153:8020/ graphprotocol/u2uswap-block",
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "deploy": "graph deploy --node http://34.234.83.28:8020/ --ipfs http://34.234.83.28:5001 graphprotocol/u2uswap-block"
+    "deploy": "graph deploy --node http://54.255.232.153:8020/ --ipfs http://54.255.232.153:5001 graphprotocol/u2uswap-block"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.21.1",
