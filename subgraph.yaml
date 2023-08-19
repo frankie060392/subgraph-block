@@ -9,7 +9,7 @@ dataSources:
     source:
       address: "0xb0c66BFeD7a4378efdD6E3e1feE79b4F4F4cf69A"
       abi: WIS
-      startBlock: 476231
+      startBlock: 0
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
