@@ -1,13 +1,24 @@
 {
   "name": "block-subgraph",
   "scripts": {
-    "create": "graph create --node https://node.u2w.io graphprotocol/u2uswap-block",
+    "create": "graph create --node http://localhost:8020 graphprotocol/u2uswap-block",
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "deploy": "graph deploy --node https://node.u2w.io --ipfs https://ipfs.u2w.io graphprotocol/u2uswap-block"
+    "deploy": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 graphprotocol/u2uswap-block"
+  },
+  "resolutions": {
+    "gluegun": "github:edgeandnode/gluegun#b34b9003d7bf556836da41b57ef36eb21570620a",
+    "assemblyscript": "github:AssemblyScript/assemblyscript#3ed76a97f05335504166fce1653da75f4face28f"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "0.21.1",
-    "@graphprotocol/graph-ts": "0.20.0"
+    "@graphprotocol/graph-cli": "^0.21.0",
+    "@graphprotocol/graph-ts": "^0.20.0",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "assemblyscript": "^0.27.15",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
   }
 }
