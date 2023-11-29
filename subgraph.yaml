@@ -7,9 +7,9 @@ dataSources:
     name: WIS
     network: mainnet
     source:
-      address: "0xb0c66BFeD7a4378efdD6E3e1feE79b4F4F4cf69A"
+      address: "0x22bb25d5cc6ba10642c9afa3eeb5e4bc6052c757"
       abi: WIS
-      startBlock: 0
+      startBlock: 11983005
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

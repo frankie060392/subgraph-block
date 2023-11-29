@@ -1,10 +1,10 @@
 {
   "name": "block-subgraph",
   "scripts": {
-    "create": "graph create --node http://localhost:8020 graphprotocol/u2uswap-block",
+    "create": "graph create --node http://localhost:8020 u2uswap/u2u-swap-v3-block",
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "deploy": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 graphprotocol/u2uswap-block"
+    "deploy": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 u2uswap/u2u-swap-v3-block"
   },
   "resolutions": {
     "gluegun": "github:edgeandnode/gluegun#b34b9003d7bf556836da41b57ef36eb21570620a",
